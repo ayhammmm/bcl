@@ -45,7 +45,7 @@ const Contact = ({ language }: ContactProps) => {
                                 <div>
                                     <p className="font-bold text-[#F5A623]">{isAr ? 'الأردن' : 'Jordan'}</p>
                                     {/* <p dir="ltr">+962 79 123 4567</p> */}
-                                    <a dir="ltr" href="tel:+962 7 9798 7548"></a>
+                                    <a dir="ltr" href="tel:+962797987548">+962 7 9798 7548</a>
                                 </div>
                             </div>
                             <div className="flex items-start gap-4">
