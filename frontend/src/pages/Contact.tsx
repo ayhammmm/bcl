@@ -44,7 +44,8 @@ const Contact = ({ language }: ContactProps) => {
                                 <span className="text-2xl">📞</span>
                                 <div>
                                     <p className="font-bold text-[#F5A623]">{isAr ? 'الأردن' : 'Jordan'}</p>
-                                    <p dir="ltr">+962 79 123 4567</p>
+                                    {/* <p dir="ltr">+962 79 123 4567</p> */}
+                                    <a dir="ltr" href="tel:+962 7 9798 7548"></a>
                                 </div>
                             </div>
                             <div className="flex items-start gap-4">
@@ -101,7 +102,7 @@ const Contact = ({ language }: ContactProps) => {
                                 </label>
                                 <textarea rows={5} className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-[#1B3A5C] outline-none"></textarea>
                             </div>
-                            <button className="w-full bg-[#1B3A5C] text-white py-3 rounded-lg font-bold hover:bg-[#2C5282] transition text-lg">
+                            <button className="w-full bg-[#1B3A5C] text-white py-3 rounded-lg font-bold hover:bg-[#2C5282] transition text-lg" >
                                 {isAr ? 'إرسال' : 'Send Message'}
                             </button>
                         </div>
